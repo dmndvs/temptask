@@ -2,7 +2,7 @@
 <?php
 define('PROT',1);
 include('lib/module.php');
-if(isset($_POST['oklogin'])) //when press button for authorization 
+if(isset($_POST['oklogin'])) //when pressed button for authorization 
 	{
 		$error = enter(); //enter on site
 		if (!$error) //if no errors -> authorization
@@ -11,7 +11,7 @@ if(isset($_POST['oklogin'])) //when press button for authorization
 			}
 		}
 	}
-elseif(isset($_POST['okreg']))//when press button for registration 
+elseif(isset($_POST['okreg']))//when pressed button for registration 
 	{
 	$error = adduser();
 	if($error == 'user already exist') {$action='signup';} //when user is already exist, we still standing on "signup" form
