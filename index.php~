@@ -1,11 +1,5 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <?php
-/**
-* test
-* test
-* test
-* test
-*/
 define('PROT',1);
 include('lib/module.php');
 if(isset($_POST['oklogin'])) //when press button for authorization 
